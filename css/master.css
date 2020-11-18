@@ -100,14 +100,14 @@ body {
 .feature {
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: #EEE;
+    background-color: #DDD;
 }
 .feature h1 {
     font-weight: bold;
     margin-bottom: 50px
 }
 .feature .feat {
-    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .feature .feat p {
     line-height: 2em;
