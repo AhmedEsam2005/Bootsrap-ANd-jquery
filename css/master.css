@@ -128,11 +128,51 @@ section h1 {
     padding-bottom: 60px;
 }
 .testimonials .lead {
-    line-height: 1.5em;
+    line-height: 2em;
 }
 .testimonials span {
     font-size: 20px;
     font-weight: bold;
     color: var(--main-color);
+}
+.testimonials .carousel-inner {
+    min-height: 160px;
+}
+.testimonials .carousel-indicators {
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    padding-top: 20px;
+}
+.testimonials .carousel-indicators li {
+    opacity: .5;
+    border: 2px solid #fff;
+}
+.testimonials .carousel-indicators li.active {
+    opacity: 1;
+    border: 2px solid var(--main-color) !important;
+}
+.testimonials .carousel-indicators li,
+.testimonials .carousel-indicators li.active {
+    width: 80px;
+    height: 80px;
+    background-color: #ddd;
+    border:0;
+}
+.testimonials .carousel-indicators li:focus {
+    outline: none;
+    border: 0;
+}   
+.testimonials .carousel-indicators li:first-child {
+    background-image: url("../images/avatar1.jpg");
+    background-size: cover;
+}
+.testimonials .carousel-indicators li:nth-child(2) {
+    background-image: url("../images/avatar2.jpg");
+    background-size: cover;
+}
+.testimonials .carousel-indicators li:nth-child(3) {
+    background-image: url("../images/avatar3.jpg");
+    background-size: cover;
 }
 /*End Testimonails*/
