@@ -102,7 +102,8 @@ body {
     padding-bottom: 40px;
     background-color: #DDD;
 }
-.feature h1 {
+.feature h1,
+.feature h2 {
     font-weight: bold;
     margin-bottom: 50px
 }
@@ -120,7 +121,8 @@ body {
 
 /*end Feature*/
 /*Start Testimonails*/
-section h1 {
+section h1,
+section h2 {
     font-weight: bold;
 }
 .testimonials {
@@ -182,7 +184,8 @@ section h1 {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.price-table h1{
+.price-table h1,
+.price-table h2{
     margin-bottom: 40px;
 }
 .price-table .price-box {
